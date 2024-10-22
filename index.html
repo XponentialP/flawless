@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+  </head>
+  <body>
+    <nav class="desktop-nav">
+      <div class="logo">
+        <h1>Flawless</h1>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Projects</li></a>
+          <a href="#"><li>Contact</li></a>
+          <a href="#"><li>Experience</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="hamburger-nav">
+      <div class="logo">
+        <h1>Flawless</h1>
+      </div>
+      <div class="hamburger-menu" onclick="toggleMenu()">
+        <div class="hamburger-icon">
+          <i class="fa-solid fa-bars"></i>
+          <!-- <span>&times;</span> -->
+        </div>
+        <div class="nav-links" onclick="toggleMenu()">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Projects</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="#"><li>Experience</li></a>
+        </div>
+      </div>
+    </nav>
+    <script src="./index.js"></script>
+  </body>
+</html>
